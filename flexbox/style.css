@@ -16,7 +16,9 @@ html, body {
 }
 
 .block {
-    background-color:rgb(148, 195, 114);
+    /*background-color:rgb(148, 195, 114);*/
+    background-image: url("pollu.png");
+    background-size: contain;
     border:1px solid black;
     height: 90%;
     width: 100px;
