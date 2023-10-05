@@ -1,0 +1,106 @@
+html,body{
+    height: 99%;
+    width: 99.5%;   
+}
+
+@font-face {
+    font-family: 'cFont';
+    src: url('assets/fonts/HankenGrotesk-VariableFont_wght.ttf') format('truetype');
+    font-weight: 500, 700, 800;
+    font-style: normal;
+}
+
+.container{ 
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text{
+    font-family: cFont;
+    font-size: 20px;
+    color: white;
+    font-weight: 500,700,800;
+}
+
+.result h1{
+    font-family: cFont;
+    color: white;
+}
+
+p{
+    padding-top: 40px;
+    font-size: 40px;
+}
+
+.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    background-color: hsl(234, 85%, 45%);
+}
+
+.result{
+    justify-content: space-between;
+    width: 50%;
+    height:100%;
+    background-color: rgb(66, 131, 221);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(90deg, hsl(252, 100%, 67%) 0%, hsl(241, 81%, 54%) 100%);
+}
+
+.summary{
+    width:50%;
+    height:100%;
+}
+
+.summary h1{
+    padding-left: 60px;
+    font-family: cFont;
+}
+
+.summaryMain{
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.summaryContainer{
+    height:20%;
+    border-radius: 20px;
+    width: 80%;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.summaryContainer span{
+    font-family: cFont;
+    padding-left: 20px;
+    font-size: 30px;
+    color: white;
+    font-weight: 500,700,800;
+}
+
+.summaryContainer img{
+    padding-left: 20px;
+    width: 20%;
+}
+
+.summaryName{
+    display: flex;
+    width: 50%;
+    height:100%;
+    align-items: center;
+}
